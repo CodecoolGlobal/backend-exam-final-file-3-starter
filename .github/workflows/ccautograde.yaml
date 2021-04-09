@@ -1,8 +1,9 @@
+
 name: CC Autograde
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   build:
@@ -18,6 +19,7 @@ jobs:
     - name: Build with Maven
       run: mvn clean test
       env:
-        AID: "5710353417633792"
-        CID: "34931061-8360-4b18-9fc6-3116cb84ceda"
+        AID: "5073695114526720"
+        CID: "c648a9e5-44f4-43af-9e3a-098a655f3e78"
                                     
+
